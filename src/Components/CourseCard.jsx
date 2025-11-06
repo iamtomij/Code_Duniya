@@ -13,24 +13,30 @@ const CourseCard = () => {
       id: 1,
       name: "MERN Stack Development",
       dep: "Web and Softwere",
-      price: "1,20000 TK",
+      price: "৳1,20000 BDT",
+      star: "Rating | 450 Reviews",
       thm: MERNimg,
+      st: "৩০০০ স্টুডেন্ট",
     },
 
     {
       id: 2,
       name: "UX/UI Design",
       dep: "Graphics & Multimedia",
-      price: "1,20000 TK",
+      price: "৳1,20000 BDT",
       thm: FIGMAimg,
+      star: "Rating | 450 Reviews",
+      st: "৩০০০ স্টুডেন্ট",
     },
 
     {
       id: 3,
       name: "Professional Video Editing",
       dep: "Films & Media",
-      price: "1,20000 TK",
+      price: "৳1,20000 BDT",
+      star: "Rating | 450 Reviews",
       thm: VEditingimg,
+      st: "৩০০০ স্টুডেন্ট",
     },
   ];
   return (
