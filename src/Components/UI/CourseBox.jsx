@@ -6,7 +6,7 @@ import Button from "./../Layout/Button";
 
 const CourseBox = ({ course }) => {
   return (
-    <div className="mt-[53px] bg-[#415A77] text-white rounded-[15px]">
+    <div className="mt-[53px] bg-[#415A77] text-white rounded-[15px] w-fit">
       <img src={course.thm} alt="thm" />
       <div className="px-6">
         <Flex className="justify-between mt-4 mb-2">
@@ -20,15 +20,17 @@ const CourseBox = ({ course }) => {
         <h2 className="text-[24px] font-bold">{course.name}</h2>
         <Flex className="justify-between items-center">
           <div>
-              <Flex>
-                <FaStar className="text-yellow-400" />
-                <h3>{course.star}</h3>
-              </Flex>
-              <h5 className="text-2xl font-extrabold">{course.price}</h5>
-           
+            <Flex>
+              <FaStar className="text-yellow-400" />
+              <h3>{course.star}</h3>
+            </Flex>
+            <h5 className="text-2xl font-extrabold">{course.price}</h5>
           </div>
           <div>
-            <Button className="bg-primary px-5 py-2 text-white text-lg rounded-[15px] cursor-pointer font-anek " title="ডিসকাউন্ট" />
+            <Button
+              className="bg-primary px-5 py-2 text-white text-lg rounded-[15px] cursor-pointer font-anek "
+              title="ডিসকাউন্ট"
+            />
           </div>
         </Flex>
       </div>

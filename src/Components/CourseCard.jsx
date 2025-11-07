@@ -50,7 +50,7 @@ const CourseCard = () => {
 
     {
       id: 4, 
-      name: "MERN Stack Development (Extra)",
+      name: "MERN Stack Development",
       dep: "Web and Softwere",
       price: "৳1,20000 BDT",
       star: "Rating | 450 Reviews",
@@ -59,8 +59,8 @@ const CourseCard = () => {
     },
 
     {
-      id: 5, 
-      name: "UX/UI Design (Extra)",
+      id:5, 
+      name: "UX/UI Design",
       dep: "Graphics & Multimedia",
       price: "৳1,20000 BDT",
       thm: FIGMAimg,
@@ -70,7 +70,7 @@ const CourseCard = () => {
 
     {
       id: 6, 
-      name: "Professional Video Editing (Extra)",
+      name: "Professional Video Editing",
       dep: "Films & Media",
       price: "৳1,20000 BDT",
       star: "Rating | 450 Reviews",
@@ -90,7 +90,7 @@ const CourseCard = () => {
           main_titlle="আমাদের কোর্স সমুহ"
           sub_title="আমাদের সমস্ত কোর্স সুদক্ষ মেন্টর দ্বারা পরিচালিত এবং সমৃদ্ধ রিসোর্স দ্বারা পরিপূর্ণ"
         />
-        <Flex className="justify-between flex-wrap">
+        <div className="grid grid-cols-3 gap-6 ">
           
           {visibleCourses.map((item) => (
             <CourseBox key={item.id} course={item} />
@@ -105,13 +105,11 @@ const CourseCard = () => {
             </>
           )}
 
-        </Flex>
-        
-        
+        </div>
         <Button
             onClick={handleToggle}
             className="bg-[#415A77] text-white
-                cursor-pointer py-2 px-[58px] rounded-[15px] text-2xl font-semibold mt-[42px] mb-[174px] mx-auto block"
+                cursor-pointer py-2 px-[58px] rounded-[15px] text-2xl font-semibold mt-[42px] mb-[174px] mx-auto block "
             title={isShowMore ? "কম দেখুন" : "আরও কোর্স দেখুন"} 
         />
       </Container>
