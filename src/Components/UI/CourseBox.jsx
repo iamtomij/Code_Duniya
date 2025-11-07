@@ -24,11 +24,11 @@ const CourseBox = ({ course }) => {
                 <FaStar className="text-yellow-400" />
                 <h3>{course.star}</h3>
               </Flex>
-              <h5>{course.price}</h5>
+              <h5 className="text-2xl font-extrabold">{course.price}</h5>
            
           </div>
           <div>
-            <Button className="bg-amber-800 px-5 py-2 text-white text-lg font-anek " title="cudlink pong" />
+            <Button className="bg-primary px-5 py-2 text-white text-lg rounded-[15px] cursor-pointer font-anek " title="ডিসকাউন্ট" />
           </div>
         </Flex>
       </div>

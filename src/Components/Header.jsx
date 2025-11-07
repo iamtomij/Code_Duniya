@@ -16,7 +16,7 @@ function Header() {
               <li>ক্যারিয়ার গাইডলাইন</li>
             </ul>
             <Button
-              className="bg-[#415A77] text-white hover:text-[#0ddbff] cursor-pointer py-1 px-[58px] rounded-[10px] text-2xl font-semibold"
+              className="bg-[#415A77] text-white cursor-pointer py-1 px-[58px] rounded-[10px] text-2xl font-semibold"
               title="কোর্স দেখুন"
             />
           </Flex>

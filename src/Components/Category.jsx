@@ -49,8 +49,8 @@ let Category = () => {
       <div
         className={className}
         style={{ ...style, display: "block", background: "black" }}
-        onClick={onClick}
-      >preyjyyitiie56ev</div>
+        onClick={onClick}>
+        </div>
     );
   }
 
@@ -76,18 +76,17 @@ let Category = () => {
     autoplaySpeed: 2000,
 
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <section className="absolute top-[-100px] w-full">
       <Container>
         <div className="max-w-[1002px] mx-auto">
-        <Slider {...settings}>
-          {dhisting.map((Citem) => (
-            <Category_item item={Citem} />
-          ))}
-        </Slider>
-
+          <Slider {...settings}>
+            {dhisting.map((Citem) => (
+              <Category_item item={Citem} />
+            ))}
+          </Slider>
         </div>
       </Container>
     </section>

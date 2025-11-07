@@ -18,7 +18,8 @@ const Banner = () => {
                 এক্সপার্ট হিসেবে গড়ে তুলুন
               </p>
               <Button
-                className="bg-[#415A77] text-white hover:text-[#0ddbff] cursor-pointer py-1 px-[58px] rounded-[10px] text-2xl font-semibold mt-[42px] mb-[174px]"
+                className="bg-[#415A77] text-white
+                cursor-pointer py-1 px-[58px] rounded-[10px] text-2xl font-semibold mt-[42px] mb-[174px]"
                 title="কোর্স দেখুন"
               />
             </div>
