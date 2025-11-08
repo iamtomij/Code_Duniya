@@ -3,17 +3,17 @@ import Category from './Components/Category.jsx'
 import CourseCard from './Components/CourseCard.jsx'
 import Header from './Components/Header.jsx'
 import Banner from './Components/Layout/Banner.jsx'
-import SuccesStory from './Components/UI/SuccesStory.jsx'
+import Reviaw from "./Components/Reviaw.jsx"
 const App = () => {
   return (
     <main>
       <Header/>
-      <Banner/>
+      {/* <Banner/>
       <div className='relative'>
       <Category/>
       </div>
     <CourseCard/>
-    <SuccesStory/>
+     <Reviaw/> */}
     
 
     </main>
